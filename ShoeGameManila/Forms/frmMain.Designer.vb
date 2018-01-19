@@ -47,6 +47,7 @@ Partial Class frmMain
         Me.ResumeLayout(False)
         addFormInsidePanel(mainPanel, frmPOS)
         addFormInsidePanel(mainPanel, frmManagement)
+        addFormInsidePanel(mainPanel, frmSearchProducts)
     End Sub
     Friend WithEvents mainPanel As System.Windows.Forms.Panel
 End Class

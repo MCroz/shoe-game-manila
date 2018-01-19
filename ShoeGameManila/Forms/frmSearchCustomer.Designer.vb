@@ -23,14 +23,15 @@ Partial Class frmSearchCustomer
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.AljonCustomUnderlineTextbox3 = New AljonCustomControl.Controls.AljonCustomUnderlineTextbox()
+        Me.AljonCustomUnderlineTextbox2 = New AljonCustomControl.Controls.AljonCustomUnderlineTextbox()
+        Me.AljonCustomUnderlineTextbox1 = New AljonCustomControl.Controls.AljonCustomUnderlineTextbox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.AljonCustomUnderlineTextbox1 = New AljonCustomControl.Controls.AljonCustomUnderlineTextbox()
-        Me.AljonCustomUnderlineTextbox2 = New AljonCustomControl.Controls.AljonCustomUnderlineTextbox()
-        Me.AljonCustomUnderlineTextbox3 = New AljonCustomControl.Controls.AljonCustomUnderlineTextbox()
+        Me.btnProceed = New MetroFramework.Controls.MetroTile()
+        Me.btnCancel = New MetroFramework.Controls.MetroTile()
+        Me.btnAddew = New MetroFramework.Controls.MetroTile()
         Me.lblEmail = New System.Windows.Forms.Label()
         Me.lblContact = New System.Windows.Forms.Label()
         Me.lblAddress = New System.Windows.Forms.Label()
@@ -38,10 +39,8 @@ Partial Class frmSearchCustomer
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lblCustname = New System.Windows.Forms.Label()
-        Me.btnAddew = New MetroFramework.Controls.MetroTile()
-        Me.btnProceed = New MetroFramework.Controls.MetroTile()
-        Me.btnCancel = New MetroFramework.Controls.MetroTile()
-        Me.listCustomer = New JuvyCustomControls.JuvyCustomList()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -51,7 +50,6 @@ Partial Class frmSearchCustomer
         'Panel1
         '
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel1.Controls.Add(Me.listCustomer)
         Me.Panel1.Controls.Add(Me.AljonCustomUnderlineTextbox3)
         Me.Panel1.Controls.Add(Me.AljonCustomUnderlineTextbox2)
         Me.Panel1.Controls.Add(Me.AljonCustomUnderlineTextbox1)
@@ -61,6 +59,84 @@ Partial Class frmSearchCustomer
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(422, 672)
         Me.Panel1.TabIndex = 0
+        '
+        'AljonCustomUnderlineTextbox3
+        '
+        Me.AljonCustomUnderlineTextbox3.CustomBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(51, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.AljonCustomUnderlineTextbox3.CustomFocusedUnderlineColor = System.Drawing.Color.DeepSkyBlue
+        Me.AljonCustomUnderlineTextbox3.CustomFont = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AljonCustomUnderlineTextbox3.CustomFontColor = System.Drawing.Color.White
+        Me.AljonCustomUnderlineTextbox3.CustomTextboxMode = AljonCustomControl.TextboxMode.[STRING]
+        Me.AljonCustomUnderlineTextbox3.CustomUnfocusedUnderlineColor = System.Drawing.Color.Gray
+        Me.AljonCustomUnderlineTextbox3.Depth = 0
+        Me.AljonCustomUnderlineTextbox3.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AljonCustomUnderlineTextbox3.ForeColor = System.Drawing.Color.White
+        Me.AljonCustomUnderlineTextbox3.Hint = "Email"
+        Me.AljonCustomUnderlineTextbox3.Location = New System.Drawing.Point(-1, 226)
+        Me.AljonCustomUnderlineTextbox3.MaxLength = 32767
+        Me.AljonCustomUnderlineTextbox3.MouseState = AljonCustomControl.MouseState.HOVER
+        Me.AljonCustomUnderlineTextbox3.Name = "AljonCustomUnderlineTextbox3"
+        Me.AljonCustomUnderlineTextbox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.AljonCustomUnderlineTextbox3.SelectedText = ""
+        Me.AljonCustomUnderlineTextbox3.SelectionLength = 0
+        Me.AljonCustomUnderlineTextbox3.SelectionStart = 0
+        Me.AljonCustomUnderlineTextbox3.Size = New System.Drawing.Size(422, 29)
+        Me.AljonCustomUnderlineTextbox3.TabIndex = 9
+        Me.AljonCustomUnderlineTextbox3.TabStop = False
+        Me.AljonCustomUnderlineTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.AljonCustomUnderlineTextbox3.UseSystemPasswordChar = False
+        '
+        'AljonCustomUnderlineTextbox2
+        '
+        Me.AljonCustomUnderlineTextbox2.CustomBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(51, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.AljonCustomUnderlineTextbox2.CustomFocusedUnderlineColor = System.Drawing.Color.DeepSkyBlue
+        Me.AljonCustomUnderlineTextbox2.CustomFont = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AljonCustomUnderlineTextbox2.CustomFontColor = System.Drawing.Color.White
+        Me.AljonCustomUnderlineTextbox2.CustomTextboxMode = AljonCustomControl.TextboxMode.[STRING]
+        Me.AljonCustomUnderlineTextbox2.CustomUnfocusedUnderlineColor = System.Drawing.Color.Gray
+        Me.AljonCustomUnderlineTextbox2.Depth = 0
+        Me.AljonCustomUnderlineTextbox2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AljonCustomUnderlineTextbox2.ForeColor = System.Drawing.Color.White
+        Me.AljonCustomUnderlineTextbox2.Hint = "Contact No"
+        Me.AljonCustomUnderlineTextbox2.Location = New System.Drawing.Point(-1, 171)
+        Me.AljonCustomUnderlineTextbox2.MaxLength = 32767
+        Me.AljonCustomUnderlineTextbox2.MouseState = AljonCustomControl.MouseState.HOVER
+        Me.AljonCustomUnderlineTextbox2.Name = "AljonCustomUnderlineTextbox2"
+        Me.AljonCustomUnderlineTextbox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.AljonCustomUnderlineTextbox2.SelectedText = ""
+        Me.AljonCustomUnderlineTextbox2.SelectionLength = 0
+        Me.AljonCustomUnderlineTextbox2.SelectionStart = 0
+        Me.AljonCustomUnderlineTextbox2.Size = New System.Drawing.Size(422, 29)
+        Me.AljonCustomUnderlineTextbox2.TabIndex = 8
+        Me.AljonCustomUnderlineTextbox2.TabStop = False
+        Me.AljonCustomUnderlineTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.AljonCustomUnderlineTextbox2.UseSystemPasswordChar = False
+        '
+        'AljonCustomUnderlineTextbox1
+        '
+        Me.AljonCustomUnderlineTextbox1.CustomBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(51, Byte), Integer), CType(CType(51, Byte), Integer))
+        Me.AljonCustomUnderlineTextbox1.CustomFocusedUnderlineColor = System.Drawing.Color.DeepSkyBlue
+        Me.AljonCustomUnderlineTextbox1.CustomFont = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AljonCustomUnderlineTextbox1.CustomFontColor = System.Drawing.Color.White
+        Me.AljonCustomUnderlineTextbox1.CustomTextboxMode = AljonCustomControl.TextboxMode.[STRING]
+        Me.AljonCustomUnderlineTextbox1.CustomUnfocusedUnderlineColor = System.Drawing.Color.Gray
+        Me.AljonCustomUnderlineTextbox1.Depth = 0
+        Me.AljonCustomUnderlineTextbox1.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AljonCustomUnderlineTextbox1.ForeColor = System.Drawing.Color.White
+        Me.AljonCustomUnderlineTextbox1.Hint = "Name"
+        Me.AljonCustomUnderlineTextbox1.Location = New System.Drawing.Point(-1, 115)
+        Me.AljonCustomUnderlineTextbox1.MaxLength = 32767
+        Me.AljonCustomUnderlineTextbox1.MouseState = AljonCustomControl.MouseState.HOVER
+        Me.AljonCustomUnderlineTextbox1.Name = "AljonCustomUnderlineTextbox1"
+        Me.AljonCustomUnderlineTextbox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.AljonCustomUnderlineTextbox1.SelectedText = ""
+        Me.AljonCustomUnderlineTextbox1.SelectionLength = 0
+        Me.AljonCustomUnderlineTextbox1.SelectionStart = 0
+        Me.AljonCustomUnderlineTextbox1.Size = New System.Drawing.Size(421, 29)
+        Me.AljonCustomUnderlineTextbox1.TabIndex = 7
+        Me.AljonCustomUnderlineTextbox1.TabStop = False
+        Me.AljonCustomUnderlineTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.AljonCustomUnderlineTextbox1.UseSystemPasswordChar = False
         '
         'Panel2
         '
@@ -97,110 +173,57 @@ Partial Class frmSearchCustomer
         Me.Panel3.Controls.Add(Me.Label2)
         Me.Panel3.Controls.Add(Me.lblCustname)
         Me.Panel3.Controls.Add(Me.Panel4)
-        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel3.Location = New System.Drawing.Point(421, 0)
+        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel3.Location = New System.Drawing.Point(422, 0)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(625, 672)
+        Me.Panel3.Size = New System.Drawing.Size(624, 672)
         Me.Panel3.TabIndex = 1
         '
-        'Panel4
+        'btnProceed
         '
-        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel4.Controls.Add(Me.Label1)
-        Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel4.Location = New System.Drawing.Point(0, 0)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(623, 65)
-        Me.Panel4.TabIndex = 0
+        Me.btnProceed.ActiveControl = Nothing
+        Me.btnProceed.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnProceed.BackColor = System.Drawing.Color.ForestGreen
+        Me.btnProceed.Location = New System.Drawing.Point(338, 540)
+        Me.btnProceed.Name = "btnProceed"
+        Me.btnProceed.Size = New System.Drawing.Size(273, 56)
+        Me.btnProceed.TabIndex = 30
+        Me.btnProceed.Text = "Proceed"
+        Me.btnProceed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.btnProceed.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall
+        Me.btnProceed.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular
+        Me.btnProceed.UseCustomBackColor = True
+        Me.btnProceed.UseSelectable = True
         '
-        'Label1
+        'btnCancel
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(16, 19)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(208, 24)
-        Me.Label1.TabIndex = 25
-        Me.Label1.Text = "Selected Customer"
+        Me.btnCancel.ActiveControl = Nothing
+        Me.btnCancel.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnCancel.BackColor = System.Drawing.Color.Firebrick
+        Me.btnCancel.Location = New System.Drawing.Point(339, 602)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(272, 56)
+        Me.btnCancel.TabIndex = 31
+        Me.btnCancel.Text = "Cancel"
+        Me.btnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.btnCancel.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.btnCancel.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall
+        Me.btnCancel.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular
+        Me.btnCancel.UseCustomBackColor = True
+        Me.btnCancel.UseSelectable = True
         '
-        'AljonCustomUnderlineTextbox1
+        'btnAddew
         '
-        Me.AljonCustomUnderlineTextbox1.CustomBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(51, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.AljonCustomUnderlineTextbox1.CustomFocusedUnderlineColor = System.Drawing.Color.DeepSkyBlue
-        Me.AljonCustomUnderlineTextbox1.CustomFont = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AljonCustomUnderlineTextbox1.CustomFontColor = System.Drawing.Color.White
-        Me.AljonCustomUnderlineTextbox1.CustomTextboxMode = AljonCustomControl.TextboxMode.[STRING]
-        Me.AljonCustomUnderlineTextbox1.CustomUnfocusedUnderlineColor = System.Drawing.Color.Gray
-        Me.AljonCustomUnderlineTextbox1.Depth = 0
-        Me.AljonCustomUnderlineTextbox1.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AljonCustomUnderlineTextbox1.ForeColor = System.Drawing.Color.White
-        Me.AljonCustomUnderlineTextbox1.Hint = "Name"
-        Me.AljonCustomUnderlineTextbox1.Location = New System.Drawing.Point(-1, 115)
-        Me.AljonCustomUnderlineTextbox1.MaxLength = 32767
-        Me.AljonCustomUnderlineTextbox1.MouseState = AljonCustomControl.MouseState.HOVER
-        Me.AljonCustomUnderlineTextbox1.Name = "AljonCustomUnderlineTextbox1"
-        Me.AljonCustomUnderlineTextbox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.AljonCustomUnderlineTextbox1.SelectedText = ""
-        Me.AljonCustomUnderlineTextbox1.SelectionLength = 0
-        Me.AljonCustomUnderlineTextbox1.SelectionStart = 0
-        Me.AljonCustomUnderlineTextbox1.Size = New System.Drawing.Size(421, 29)
-        Me.AljonCustomUnderlineTextbox1.TabIndex = 7
-        Me.AljonCustomUnderlineTextbox1.TabStop = False
-        Me.AljonCustomUnderlineTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.AljonCustomUnderlineTextbox1.UseSystemPasswordChar = False
-        '
-        'AljonCustomUnderlineTextbox2
-        '
-        Me.AljonCustomUnderlineTextbox2.CustomBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(51, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.AljonCustomUnderlineTextbox2.CustomFocusedUnderlineColor = System.Drawing.Color.DeepSkyBlue
-        Me.AljonCustomUnderlineTextbox2.CustomFont = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AljonCustomUnderlineTextbox2.CustomFontColor = System.Drawing.Color.White
-        Me.AljonCustomUnderlineTextbox2.CustomTextboxMode = AljonCustomControl.TextboxMode.[STRING]
-        Me.AljonCustomUnderlineTextbox2.CustomUnfocusedUnderlineColor = System.Drawing.Color.Gray
-        Me.AljonCustomUnderlineTextbox2.Depth = 0
-        Me.AljonCustomUnderlineTextbox2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AljonCustomUnderlineTextbox2.ForeColor = System.Drawing.Color.White
-        Me.AljonCustomUnderlineTextbox2.Hint = "Contact No"
-        Me.AljonCustomUnderlineTextbox2.Location = New System.Drawing.Point(-1, 171)
-        Me.AljonCustomUnderlineTextbox2.MaxLength = 32767
-        Me.AljonCustomUnderlineTextbox2.MouseState = AljonCustomControl.MouseState.HOVER
-        Me.AljonCustomUnderlineTextbox2.Name = "AljonCustomUnderlineTextbox2"
-        Me.AljonCustomUnderlineTextbox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.AljonCustomUnderlineTextbox2.SelectedText = ""
-        Me.AljonCustomUnderlineTextbox2.SelectionLength = 0
-        Me.AljonCustomUnderlineTextbox2.SelectionStart = 0
-        Me.AljonCustomUnderlineTextbox2.Size = New System.Drawing.Size(422, 29)
-        Me.AljonCustomUnderlineTextbox2.TabIndex = 8
-        Me.AljonCustomUnderlineTextbox2.TabStop = False
-        Me.AljonCustomUnderlineTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.AljonCustomUnderlineTextbox2.UseSystemPasswordChar = False
-        '
-        'AljonCustomUnderlineTextbox3
-        '
-        Me.AljonCustomUnderlineTextbox3.CustomBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(51, Byte), Integer), CType(CType(51, Byte), Integer))
-        Me.AljonCustomUnderlineTextbox3.CustomFocusedUnderlineColor = System.Drawing.Color.DeepSkyBlue
-        Me.AljonCustomUnderlineTextbox3.CustomFont = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AljonCustomUnderlineTextbox3.CustomFontColor = System.Drawing.Color.White
-        Me.AljonCustomUnderlineTextbox3.CustomTextboxMode = AljonCustomControl.TextboxMode.[STRING]
-        Me.AljonCustomUnderlineTextbox3.CustomUnfocusedUnderlineColor = System.Drawing.Color.Gray
-        Me.AljonCustomUnderlineTextbox3.Depth = 0
-        Me.AljonCustomUnderlineTextbox3.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AljonCustomUnderlineTextbox3.ForeColor = System.Drawing.Color.White
-        Me.AljonCustomUnderlineTextbox3.Hint = "Email"
-        Me.AljonCustomUnderlineTextbox3.Location = New System.Drawing.Point(-1, 226)
-        Me.AljonCustomUnderlineTextbox3.MaxLength = 32767
-        Me.AljonCustomUnderlineTextbox3.MouseState = AljonCustomControl.MouseState.HOVER
-        Me.AljonCustomUnderlineTextbox3.Name = "AljonCustomUnderlineTextbox3"
-        Me.AljonCustomUnderlineTextbox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.AljonCustomUnderlineTextbox3.SelectedText = ""
-        Me.AljonCustomUnderlineTextbox3.SelectionLength = 0
-        Me.AljonCustomUnderlineTextbox3.SelectionStart = 0
-        Me.AljonCustomUnderlineTextbox3.Size = New System.Drawing.Size(422, 29)
-        Me.AljonCustomUnderlineTextbox3.TabIndex = 9
-        Me.AljonCustomUnderlineTextbox3.TabStop = False
-        Me.AljonCustomUnderlineTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.AljonCustomUnderlineTextbox3.UseSystemPasswordChar = False
+        Me.btnAddew.ActiveControl = Nothing
+        Me.btnAddew.Location = New System.Drawing.Point(22, 286)
+        Me.btnAddew.Name = "btnAddew"
+        Me.btnAddew.Size = New System.Drawing.Size(173, 48)
+        Me.btnAddew.Style = MetroFramework.MetroColorStyle.Green
+        Me.btnAddew.TabIndex = 16
+        Me.btnAddew.Text = "Add New Customer"
+        Me.btnAddew.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.btnAddew.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular
+        Me.btnAddew.UseSelectable = True
         '
         'lblEmail
         '
@@ -279,59 +302,26 @@ Partial Class frmSearchCustomer
         Me.lblCustname.TabIndex = 23
         Me.lblCustname.Text = "Customer Name"
         '
-        'btnAddew
+        'Panel4
         '
-        Me.btnAddew.ActiveControl = Nothing
-        Me.btnAddew.Location = New System.Drawing.Point(22, 286)
-        Me.btnAddew.Name = "btnAddew"
-        Me.btnAddew.Size = New System.Drawing.Size(173, 48)
-        Me.btnAddew.Style = MetroFramework.MetroColorStyle.Green
-        Me.btnAddew.TabIndex = 16
-        Me.btnAddew.Text = "Add New Customer"
-        Me.btnAddew.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.btnAddew.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular
-        Me.btnAddew.UseSelectable = True
+        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel4.Controls.Add(Me.Label1)
+        Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel4.Location = New System.Drawing.Point(0, 0)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(622, 65)
+        Me.Panel4.TabIndex = 0
         '
-        'btnProceed
+        'Label1
         '
-        Me.btnProceed.ActiveControl = Nothing
-        Me.btnProceed.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnProceed.BackColor = System.Drawing.Color.ForestGreen
-        Me.btnProceed.Location = New System.Drawing.Point(339, 540)
-        Me.btnProceed.Name = "btnProceed"
-        Me.btnProceed.Size = New System.Drawing.Size(273, 56)
-        Me.btnProceed.TabIndex = 30
-        Me.btnProceed.Text = "Proceed"
-        Me.btnProceed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.btnProceed.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall
-        Me.btnProceed.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular
-        Me.btnProceed.UseCustomBackColor = True
-        Me.btnProceed.UseSelectable = True
-        '
-        'btnCancel
-        '
-        Me.btnCancel.ActiveControl = Nothing
-        Me.btnCancel.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnCancel.BackColor = System.Drawing.Color.Firebrick
-        Me.btnCancel.Location = New System.Drawing.Point(340, 602)
-        Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(272, 56)
-        Me.btnCancel.TabIndex = 31
-        Me.btnCancel.Text = "Cancel"
-        Me.btnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.btnCancel.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.btnCancel.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall
-        Me.btnCancel.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular
-        Me.btnCancel.UseCustomBackColor = True
-        Me.btnCancel.UseSelectable = True
-        '
-        'listCustomer
-        '
-        Me.listCustomer.AutoScroll = True
-        Me.listCustomer.Location = New System.Drawing.Point(0, 261)
-        Me.listCustomer.Name = "listCustomer"
-        Me.listCustomer.Size = New System.Drawing.Size(422, 410)
-        Me.listCustomer.TabIndex = 10
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(16, 19)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(208, 24)
+        Me.Label1.TabIndex = 25
+        Me.Label1.Text = "Selected Customer"
         '
         'frmSearchCustomer
         '
@@ -373,5 +363,4 @@ Partial Class frmSearchCustomer
     Friend WithEvents lblCustname As System.Windows.Forms.Label
     Friend WithEvents btnProceed As MetroFramework.Controls.MetroTile
     Friend WithEvents btnCancel As MetroFramework.Controls.MetroTile
-    Friend WithEvents listCustomer As JuvyCustomControls.JuvyCustomList
 End Class

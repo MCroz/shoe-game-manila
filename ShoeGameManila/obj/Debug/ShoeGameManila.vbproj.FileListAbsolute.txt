@@ -29,3 +29,5 @@ C:\Users\Aljon\Desktop\ISAD\Full System\Git Projects\ShoeGameManila\ShoeGameMani
 C:\Users\Aljon\Desktop\ISAD\Full System\Git Projects\ShoeGameManila\ShoeGameManila\obj\Debug\ShoeGameManila.frmDiscount.resources
 C:\Users\Aljon\Desktop\ISAD\Full System\Git Projects\ShoeGameManila\ShoeGameManila\obj\Debug\ShoeGameManila.frmTransaction.resources
 C:\Users\Aljon\Desktop\ISAD\Full System\Git Projects\ShoeGameManila\ShoeGameManila\obj\Debug\ShoeGameManila.frmSearchCustomer.resources
+C:\Users\Aljon\Desktop\ISAD\Full System\Git Projects\ShoeGameManila\ShoeGameManila\obj\Debug\ShoeGameManila.frmInvoice.resources
+C:\Users\Aljon\Desktop\ISAD\Full System\Git Projects\ShoeGameManila\ShoeGameManila\obj\Debug\ShoeGameManila.frmSearchProducts.resources
